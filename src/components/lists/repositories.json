@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_lists_repositories",
+  "info": {
+    "displayName": "repositories",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
