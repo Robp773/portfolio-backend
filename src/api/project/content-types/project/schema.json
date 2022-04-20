@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,26 +21,26 @@
       "required": true
     },
     "main_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "screenshots": {
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "screenshots": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "repositories": {
       "displayName": "repositories",
@@ -51,6 +52,9 @@
       "type": "component",
       "repeatable": true,
       "component": "lists.tech"
+    },
+    "test": {
+      "type": "string"
     }
   }
 }
